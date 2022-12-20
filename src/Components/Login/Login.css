@@ -1,0 +1,45 @@
+.login__container {
+  display: flex;
+  height: 100vh;
+}
+.form__container {
+  height: 100vh;
+  position: relative;
+  top: 160px;
+}
+.image__container {
+  background-color: #1334b3;
+  height: 100vh;
+  border-radius: 0;
+  align-items: center;
+  justify-content: center;
+}
+.tc__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+}
+.text__container {
+  padding: 0px 80px 0px 80px;
+}
+@media only screen and (max-width: 600px) {
+  .login__container {
+    flex-direction: column-reverse;
+  }
+  .image__container,
+  .form__container {
+    height: max-content;
+    padding: 10px;
+  }
+  .form__container {
+    position: relative;
+    top: 0px;
+  }
+  .tc__container {
+    margin-top: 2%;
+  }
+
+  .text__container {
+    padding: 0px 30px 0px 30px;
+  }
+}
